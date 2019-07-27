@@ -5,9 +5,9 @@ const isBrowser = typeof window !== "undefined"
 
 const auth = isBrowser
   ? new auth0.WebAuth({
-      domain: process.env.AUTH0_DOMAIN,
-      clientID: process.env.AUTH0_CLIENTID,
-      redirectUri: process.env.AUTH0_CALLBACK,
+      domain: "dev-ln17jny1.auth0.com",
+      clientID: "2Pb6D5x99JR327e16lCQzrljHGyS7xP8",
+      redirectUri: "https://thirsty-fermat-972b5f.netlify.com/callback",
       responseType: "token id_token",
       scope: "openid profile email",
     })
