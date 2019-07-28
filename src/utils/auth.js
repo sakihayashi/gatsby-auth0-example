@@ -6,7 +6,7 @@ const isBrowser = typeof window !== "undefined"
 const auth = isBrowser
   ? new auth0.WebAuth({
       domain: "dev-ln17jny1.auth0.com",
-      clientID: "2Pb6D5x99JR327e16lCQzrljHGyS7xP8",
+      clientID: "vJLtWOVeQ2A4B7RGZZYBpCczEKKfur6z",
       redirectUri: "https://thirsty-fermat-972b5f.netlify.com/callback",
       responseType: "token id_token",
       scope: "openid profile email",
